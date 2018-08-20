@@ -26,7 +26,7 @@ namespace netDxf
 {
 
     /// <summary>
-    /// Represents the base class for all dxf objects.
+    /// Represents the base class for all (!) dxf objects.
     /// </summary>
     public abstract class DxfObject
     {
