@@ -42,7 +42,7 @@ namespace netDxf
         #region constructors
 
         /// <summary>
-        /// Initializes a new instance of the <c>DxfObject</c> class.
+        /// Инициализурует новую instance of the <c>DxfObject</c> class.
         /// </summary>
         /// <param name="codeName">Object name.</param>
         protected DxfObject(string codeName)
