@@ -37,7 +37,7 @@ using Attribute = netDxf.Entities.Attribute;
 namespace netDxf
 {
     /// <summary>
-    /// Represents a document to Чтения and write dxf files.
+    /// Represents a document to read and write dxf files.
     /// </summary>
     public class DxfDocument :
         DxfObject
