@@ -917,15 +917,15 @@ namespace TestDxfDocument
             // the dxf version is controlled by the DrawingVariables property of the dxf document,
             // also a HeaderVariables instance or a DxfVersion can be passed to the constructor to initialize a new DxfDocument.
             dxf.DrawingVariables.AcadVer = DxfVersion.AutoCad2013;
-            dxf.Save("sample 2013.dxf");
+            dxf.Save("Sample 2013.dxf");
             dxf.DrawingVariables.AcadVer = DxfVersion.AutoCad2010;
-            dxf.Save("sample 2010.dxf");
+            dxf.Save("Sample 2010.dxf");
             dxf.DrawingVariables.AcadVer = DxfVersion.AutoCad2007;
-            dxf.Save("sample 2007.dxf");
+            dxf.Save("Sample 2007.dxf");
             dxf.DrawingVariables.AcadVer = DxfVersion.AutoCad2004;
-            dxf.Save("sample 2004.dxf");
+            dxf.Save("Sample 2004.dxf");
             dxf.DrawingVariables.AcadVer = DxfVersion.AutoCad2000;
-            dxf.Save("sample 2000.dxf");
+            dxf.Save("Sample 2000.dxf");
 
             // saving to binary dxf
             dxf.DrawingVariables.AcadVer = DxfVersion.AutoCad2013;
